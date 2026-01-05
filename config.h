@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Iosevka SS15:pixelsize=36:antialias=true:autohint=true";
+static char *font = "Iosevka SS15:pixelsize=32:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -121,7 +121,7 @@ static const char *colorname[] = {
     "#cccccc",
     "#555555",
     "#fef4e7", /* default foreground colour */
-    "#242b49", /* default background colour */
+    "#040b19", /* default background colour */
 };
 
 /*
@@ -146,13 +146,13 @@ static unsigned int cursorshape = 6;
  * Default columns and rows numbers
  */
 
-static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int cols = 120;
+static unsigned int rows = 36;
 
 /*
  * Default colour and shape of the mouse cursor
  */
-static unsigned int mouseshape = XC_xterm;
+static unsigned int mouseshape = XC_left_ptr;
 static unsigned int mousefg = 7;
 static unsigned int mousebg = 0;
 
