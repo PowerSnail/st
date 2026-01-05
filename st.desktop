@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=st
+GenericName=Terminal
+Comment=Simple terminal emulator for X
+Exec=st
+Icon=utilities-terminal
+Type=Application
+Categories=System;TerminalEmulator;
+Keywords=terminal;emulator;shell;
+StartupNotify=false
+Terminal=false
